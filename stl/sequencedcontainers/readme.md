@@ -43,3 +43,12 @@ sort - O(nlogn)
 
 ***
 
+#### deque :
+
+pop_front(), pop_front(), push_back(), push_front() - O(n)
+
+[](random access) - O(1)
+
+insert(), erase() - O(n)
+
+***
