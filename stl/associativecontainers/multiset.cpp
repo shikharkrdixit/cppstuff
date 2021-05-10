@@ -18,7 +18,7 @@ int main() {
 	for(auto it:ms){
 	    cout<<it<<" ";
 	}
-	//OP : 20 20 30 40
+	//OP : 20 20 30 40 - multisets allows duplicate same values
 	cout<<ms.count(20);
 	//OP : 2
 	auto it=ms.equal_range(20);
