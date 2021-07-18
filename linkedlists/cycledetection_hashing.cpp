@@ -18,6 +18,7 @@ bool detectLoop(struct Node* ptr)
         if (cycdet[temp] != false)
             return true;
         cycdet[temp] = true;
+	temp=temp->next;
     }
     return false;
 }
